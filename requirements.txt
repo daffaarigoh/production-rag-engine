@@ -1,0 +1,37 @@
+# Core LLM & Framework
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-groq>=0.2.0
+
+# Ingestion & Chunking
+pypdf>=5.0.0
+python-docx>=1.1.0
+tiktoken>=0.8.0
+
+# Embeddings, Vector Store, & Retrieval (100% Local / Free)
+fastembed>=0.4.0
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+flashrank>=0.2.9
+
+# Backend API & Validation
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-multipart>=0.0.12
+
+# Frontend UI
+streamlit>=1.39.0
+
+# Evaluation & Testing
+ragas>=0.2.0
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
+
+# Utilities
+python-dotenv>=1.0.1
+rich>=13.9.0
