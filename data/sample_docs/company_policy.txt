@@ -1,0 +1,13 @@
+GLOBAL TECH CORP - INTERNAL SECURITY AND REMOTE WORK POLICY (2026)
+
+Section 1: Working Hours and Remote Work Eligibility
+All software engineering and AI team members are eligible for flexible remote work arrangements. Core collaboration hours are 10:00 AM to 4:00 PM Western Indonesia Time (WIB). Team members must be reachable on Slack during core collaboration hours.
+
+Section 2: API Keys and Secrets Management
+Under no circumstances should production API keys, database credentials, or secret environment tokens (such as GROQ_API_KEY or GOOGLE_API_KEY) be committed to public or private Git repositories. All sensitive configuration must be managed through environment variables or dedicated secret vaults.
+
+Section 3: Generative AI and Data Privacy
+When building applications utilizing third-party Large Language Models (LLMs), engineering teams must ensure that personally identifiable information (PII) is anonymized before transmission. For confidential internal documents, self-hosted or zero-data-retention AI providers are strictly mandated.
+
+Section 4: Equipment and Reimbursement
+Employees working remotely receive a hardware refresh every 24 months, including an AI-capable development laptop and an annual home-office stipend of $1,200 for ergonomic furniture and internet connectivity.
