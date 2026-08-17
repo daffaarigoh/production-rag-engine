@@ -9,9 +9,12 @@ __pycache__/
 venv/
 .pytest_cache/
 
-# Data & Local ChromaDB
+# Data & Local ChromaDB / Indexes
 data/chroma_db/
-data/sample_docs/
+data/*.pkl
+
+# Local Notes & Sprint Tracker
+ROADMAP.md
 
 # IDE
 .vscode/
